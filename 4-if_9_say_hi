@@ -1,0 +1,16 @@
+#!/bin/bash
+# Display "Best School" 10 times and print "Hi" on the 9th iteration
+
+count=1
+
+while [ "$count" -le 10 ]
+do
+	echo "Best School"
+
+	if [ "$count" -eq 9 ]
+	then
+		echo "Hi"
+	fi
+
+	count=$((count + 1))
+done
