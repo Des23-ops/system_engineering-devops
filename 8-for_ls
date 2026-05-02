@@ -1,0 +1,7 @@
+#!/bin/bash
+# Display file names after the first dash in current directory
+
+for file in *
+do
+	echo "$file" | cut -d '-' -f 2-
+done
