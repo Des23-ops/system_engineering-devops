@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# sends SIGTERM to 7-highlander
+
+pkill -15 -f 7-highlander
